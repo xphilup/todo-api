@@ -4,9 +4,7 @@ var sequelize = new Sequelize(undefined, undefined, undefined, {
 	'storage': __dirname + '/basic-sqlite-database.sqlite'
 });
 
-console.log('-------------');
-console.log(__dirname);
-console.log('-------------');
+
 
 var Todo = sequelize.define('todo', {
 	description: {
